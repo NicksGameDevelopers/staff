@@ -1,0 +1,42 @@
+<html>
+<head>
+<link href="style.css" type="text/css" rel="stylesheet">
+<link href="button.css" type="text/css" rel="stylesheet">
+<title>NicksGamesDevelopers</title>
+</head>
+<body>
+
+
+</body>
+<div id="main">
+<img height="100px" width="500px" src="logo1.png"><br><hr>
+<a href=index.html><input type=button value='Home'></a>
+<a href=contact.html><input type=button value='Contact Us'></a>
+<a href=howto.html><input type=button value='How To'></a>
+<a href=about.html><input type=button value='About Me'></a>
+<hr>
+<p id="intro">This is the page where you can contact me for questions about game development.<br> </p>
+<form name="contact" method="POST"  netlify-honeypot="bot-field" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="Graphic design">Graphic design</option>
+      <option value="Web maker">Web maker</option>
+	  <option value="game development">Game development</option>
+	  <option value="Game engine">Game engine</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+
+</html>

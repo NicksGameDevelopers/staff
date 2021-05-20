@@ -1,0 +1,48 @@
+body {
+background: url('background2.png');
+text-align: center;
+width: auto;
+height: auto;
+}
+#main {
+	width: auto;
+	height: auto;
+	background: url('main.png');
+	margin: 20px 50px;
+	border: solid 2px url('background2.png');
+	border-bottom:solid 0px;
+	padding:10px;
+}
+h1{
+	text-align: center;
+	font-family:"Times New Roman";
+	font: 24pt;
+	color: gray;
+
+}
+hr{
+	height:2px;
+	color: gray; 
+}
+p{
+	font-size: 12pt;
+	text-align: left;
+	color: black;
+	text-indent: 40px;
+	font-family:"Calibri"
+}
+#intro{
+	text-align: center;
+	font-size:15pt; font-family:"Calibri"
+	
+}
+#hi{
+	text-align: center; color: white;
+	
+	font-size:15pt; font-family:"Calibri"
+	
+}
+#box{
+	background: url('background.png'); width:180px;
+ border-radius: 25px;
+}
